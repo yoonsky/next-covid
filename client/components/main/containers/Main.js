@@ -16,7 +16,7 @@ const Main = () => {
 
   let sidoList = [];
 
-  sidoData.forEach((item) => {
+  sidoData?.forEach((item) => {
     sidoList.push({
       title: item.gubun._text,
       value: item.incDec._text,
