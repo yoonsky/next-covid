@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_HOST = "http://15.164.213.11/";
+const API_HOST = "http://54.180.224.150/";
 
 // 본 api는 공공데이터 포털이 제공하는 방식에 맞춰져있음.
 

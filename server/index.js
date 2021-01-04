@@ -10,8 +10,7 @@ const sidoData = require("./sidoData");
 //CORS 설정
 app.use(
   cors({
-    // origin: ["http://localhost:80", "coseob.shop", "http://13.124.132.74/"],
-    origin: true,
+    origin: ["http://15.165.179.128/", "http://coseob.shop/"],
     credentials: true,
   })
 );
