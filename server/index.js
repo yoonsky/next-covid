@@ -49,7 +49,7 @@ app.get("/", (req, res) => {
   res.send("hello world!");
 });
 
-const port = 5000;
+const port = 80;
 app.listen(port, () => {
   console.log(`server running on port${port}!`);
 });
