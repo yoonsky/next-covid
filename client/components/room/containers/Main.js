@@ -109,7 +109,10 @@ const Main = () => {
   return (
     <>
       <Row justify="center">
-        <Typography.Title mark>hello</Typography.Title>
+        <Typography.Text mark style={{ fontSize: "20px" }}>
+          왼쪽 항목 선택 후, 시도명, 시군구명, 기관명, 전화번호로 검색이
+          가능합니다
+        </Typography.Text>
       </Row>
       <Row>
         <Select
